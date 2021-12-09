@@ -1,0 +1,120 @@
+.top-article-box img {
+  width: 100%; }
+
+.top-article-box .pickup-title {
+  font-size: 1.6rem; }
+
+.read-more {
+  font-size: 1.3rem;
+  text-align: center; }
+  .read-more a {
+    transition: all 0.3s; }
+    .read-more a:link, .read-more a:visited {
+      border-bottom: solid 1px #333; }
+    .read-more a:hover, .read-more a:active {
+      padding-bottom: 2px;
+      border-bottom: solid 1px #fff; }
+
+.article-tag {
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+  .article-tag time {
+    margin-right: 1rem; }
+
+.article-img {
+  width: 100%; }
+
+.article-text {
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+  padding: 0 40px; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400; }
+
+.wrapper {
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 1.6rem;
+  margin: 0 auto; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.heading--secondary {
+  font-size: 2.4rem;
+  font-weight: 700; }
+
+.row {
+  max-width: 120rem;
+  padding: 0 1.6rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 3rem; }
+  .row--2 [class^="col-"]:not(:last-child) {
+    margin-right: 6rem; }
+  .row .col-1-of-2--left {
+    width: calc(70% - 6rem / 2);
+    display: flex;
+    flex-direction: column; }
+  .row .col-1-of-2--right {
+    width: calc(30% - 6rem / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 3rem) / 3); }
+
+.header__logo-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.header .nav-block {
+  display: block;
+  background-color: #333; }
+  .header .nav-block ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .header .nav-block ul li {
+      padding: 0.8rem 3rem 0.8rem 0; }
+      .header .nav-block ul li a {
+        color: #fff;
+        font-size: 1.4rem;
+        margin-right: 4rem; }
+
+.section-pickup {
+  margin-bottom: 5rem; }

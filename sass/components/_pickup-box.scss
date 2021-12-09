@@ -1,0 +1,24 @@
+.top-article-box {
+  img {
+    width: 100%;
+  }
+  .pickup-title {
+    font-size: $default-font-size;
+  }
+}
+.read-more {
+  font-size: $pickup-read-more;
+  text-align: center;
+  a {
+    transition: all 0.3s;
+    &:link,
+    &:visited {
+      border-bottom: solid 1px $color-black;
+    }
+    &:hover,
+    &:active {
+      padding-bottom: 2px;
+      border-bottom: solid 1px $color-white;
+    }
+  }
+}
