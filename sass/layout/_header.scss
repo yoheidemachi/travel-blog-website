@@ -1,7 +1,11 @@
 .header {
+  position: sticky;
+  top: 0;
+  padding-top: 0.6rem;
+  background-color: $color-white;
   &__logo-box {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
   }
   .nav-block {
     display: block;

@@ -1,0 +1,50 @@
+.profile {
+  &--img {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    img {
+      border-radius: 50%;
+      height: 12rem;
+      width: 12rem;
+    }
+  }
+  h3 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  p {
+    font-size: $aside-text;
+  }
+}
+.ranking {
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &--article {
+    margin-bottom: 2.2rem;
+    img {
+      width: 100%;
+    }
+    p {
+      font-size: $aside-text;
+    }
+  }
+}
+.archive {
+  h3 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  ul {
+    li {
+      border-top: 1px solid $color-black;
+      font-size: $aside-text;
+      padding: 2rem 0 2rem 2rem;
+    }
+    li:last-child {
+      border-bottom: 1px solid $color-black;
+    }
+  }
+}

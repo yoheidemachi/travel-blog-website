@@ -1,0 +1,49 @@
+footer {
+  background-color: $footer-bg-color;
+  padding-top: 4rem;
+  h3 {
+    margin-bottom: 2.4rem;
+  }
+  .about {
+    p {
+      font-size: $footer-text;
+    }
+    ul {
+      list-style: none;
+      padding-left: 1.5rem;
+      li {
+        font-size: $footer-text;
+        &::before {
+          content: "";
+          border-color: transparent #111;
+          border-style: solid;
+          border-width: 0.35em 0 0.35em 0.45em;
+          display: block;
+          height: 0;
+          width: 0;
+          left: -1em;
+          top: 1.1em;
+          position: relative;
+        }
+      }
+    }
+  }
+  .menu {
+    ul {
+      li {
+        border-top: 1px solid $color-black;
+        font-size: $footer-text;
+        padding: 1.5rem 0 1.5rem 2rem;
+        text-transform: uppercase;
+      }
+      li:last-child {
+        border-bottom: 1px solid $color-black;
+      }
+    }
+  }
+  .copyright {
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: $copyright-text;
+  }
+}
