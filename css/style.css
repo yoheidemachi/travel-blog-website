@@ -1,6 +1,10 @@
 .top-article-box img {
   width: 100%; }
 
+.top-article-box .img3 {
+  max-width: 100%;
+  max-height: 345px; }
+
 .top-article-box .pickup-title {
   font-size: 1.6rem; }
 
