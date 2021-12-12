@@ -2,10 +2,7 @@
   img {
     width: 100%;
   }
-  .img3 {
-    max-width: 100%;
-    max-height: 345px;
-  }
+
   .pickup-title {
     font-size: $default-font-size;
   }
@@ -23,6 +20,21 @@
     &:active {
       padding-bottom: 2px;
       border-bottom: solid 1px $color-white;
+    }
+  }
+}
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 76rem) {
+  .section-pickup {
+    .row {
+      .col-1-of-3 {
+        width: 100%;
+        .top-article-box {
+          margin-bottom: 4.4em;
+        }
+      }
     }
   }
 }

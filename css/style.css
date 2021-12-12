@@ -1,10 +1,6 @@
 .top-article-box img {
   width: 100%; }
 
-.top-article-box .img3 {
-  max-width: 100%;
-  max-height: 345px; }
-
 .top-article-box .pickup-title {
   font-size: 1.6rem; }
 
@@ -19,6 +15,15 @@
       padding-bottom: 2px;
       border-bottom: solid 1px #fff; }
 
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 76rem) {
+  .section-pickup .row .col-1-of-3 {
+    width: 100%; }
+    .section-pickup .row .col-1-of-3 .top-article-box {
+      margin-bottom: 4.4em; } }
+
 .article-tag {
   font-size: 1.2rem;
   margin-bottom: 1rem; }
@@ -32,6 +37,20 @@
   font-size: 1.5rem;
   margin: 10px 0 20px;
   padding: 0 40px; }
+
+@media screen and (max-width: 76rem) {
+  .section-articles .row .col-1-of-2--left {
+    width: 100%; }
+    .section-articles .row .col-1-of-2--left .top-article-box {
+      margin-bottom: 4.4em; }
+  .section-articles .row .col-1-of-2--right {
+    width: 100%; }
+    .section-articles .row .col-1-of-2--right .top-article-box {
+      margin-bottom: 4.4em; }
+    .section-articles .row .col-1-of-2--right .profile--text {
+      font-size: 1.4rem; }
+    .section-articles .row .col-1-of-2--right .ranking--article p {
+      font-size: 1.4rem; } }
 
 .profile--img {
   display: flex;
@@ -71,6 +90,10 @@
 
 .archive ul li:last-child {
   border-bottom: 1px solid #333; }
+
+@media screen and (max-width: 76rem) {
+  .archive ul li {
+    font-size: 1.4rem; } }
 
 *,
 *::after,
@@ -202,6 +225,11 @@ footer {
     padding-bottom: 2rem;
     text-align: center;
     font-size: 1.2rem; }
+
+@media screen and (max-width: 76rem) {
+  footer .row .col-1-of-3 {
+    width: 100%;
+    margin-bottom: 3rem; } }
 
 .section-pickup {
   margin-bottom: 5rem; }
