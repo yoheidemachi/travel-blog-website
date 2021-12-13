@@ -18,7 +18,7 @@
 /*-------------------------------------------
 SP
 -------------------------------------------*/
-@media screen and (max-width: 76rem) {
+@media screen and (max-width: 770px) {
   .section-pickup .row .col-1-of-3 {
     width: 100%; }
     .section-pickup .row .col-1-of-3 .top-article-box {
@@ -38,7 +38,7 @@ SP
   margin: 10px 0 20px;
   padding: 0 40px; }
 
-@media screen and (max-width: 76rem) {
+@media screen and (max-width: 770px) {
   .section-articles .row .col-1-of-2--left {
     width: 100%; }
     .section-articles .row .col-1-of-2--left .top-article-box {
@@ -91,7 +91,7 @@ SP
 .archive ul li:last-child {
   border-bottom: 1px solid #333; }
 
-@media screen and (max-width: 76rem) {
+@media screen and (max-width: 770px) {
   .archive ul li {
     font-size: 1.4rem; } }
 
@@ -191,6 +191,10 @@ li {
           font-size: 1.4rem;
           margin-right: 4rem; }
 
+@media screen and (max-width: 770px) {
+  header .nav-block {
+    overflow-x: scroll; } }
+
 footer {
   background-color: #f7f7f7;
   padding-top: 4rem; }
@@ -226,7 +230,7 @@ footer {
     text-align: center;
     font-size: 1.2rem; }
 
-@media screen and (max-width: 76rem) {
+@media screen and (max-width: 770px) {
   footer .row .col-1-of-3 {
     width: 100%;
     margin-bottom: 3rem; } }
